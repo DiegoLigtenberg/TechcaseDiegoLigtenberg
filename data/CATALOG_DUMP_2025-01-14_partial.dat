@@ -1,0 +1,600 @@
+ÞÞÞCATALOG_BACKUP_v3.1.0ÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞÞ
+DUMP_DATE=2025-01-14T03:11:52+0100
+SOURCE_DB=catalog_nl_prod
+RECORDS_EXPECTED=712
+CHECKSUM=9be21f77CORRUPTED
+# EXPORT INTERRUPTED - PARTIAL DATA
+þþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ
+track_id|isrc|title|artist|label|release_year
+1000|NLA2B2411000|Witch Doctor|DE STAAT|Mascot Label Group|2015
+1001|NLJM52511001|KITTY KITTY|De Staat|Mascot Label Group|2019
+1002||Sweatshop|de staat|Mascot Label Group|2018
+1003|NLK472111003|Tie Me Down|De Staat|Mascot Label Group|2016
+1004|NLA2B2211004|Input Source Select|DE STAAT|Mascot Label Group|2020
+1005|NLJM52311005|Make Way|DE STAAT|Mascot Label Group|2021
+1006|NLA2B2411006|Peptalk|DE STAAT|Mascot Label Group|2022
+1007|NLA2B2511007|Streets|KENSINGTON|Universal Music NL|2016
+1008|NLA2B2011008|Sorry|Kensington|Universal Music NL|2014
+1009|NLK472111009|Do I Ever|Kensington|Universal Music NL|2015
+1010|NLRS92211010|Riddles|Kensington|Universal Music NL|2017
+1011|NLJM52311011|All for Nothing|Kensington|Universal Music NL|2018
+1012|NLK472411012|Uncharted|KENSINGTON|Universal Music NL|2019
+1013|NLRS92511013|Versus|KENSINGTON|Universal Music NL|2020
+1014|NLA2B2011014|The Faithful|KENSINGTON|Universal Music NL|2021
+1015|NLJM52111015|De Diepte|S10|Universal Music NL|2022
+1016|NLX112211016|Adem Je In|s10|Universal Music NL|2022
+1017|NLK472311017|Nacht|s10|Universal Music NL|2021
+1018|NLX112411018|Boos|S10|Universal Music NL|2023
+1019|NLA2B2511019|Dat Ik Je Mis|S10|Universal Music NL|2020
+1020|NLA2B2011020|Vlinders|s10|Universal Music NL|2023
+1021|NLX112111021|Noord|goldband|Onbekend / indie|2022
+1022|NLX112211022|Witte Was|Gold Band|Onbekend / indie|2021
+1023|NLJM52311023|Rode Wangen|Goldband|Onbekend / indie|2022
+1024|NLRS92411024|Cadillac|goldband|Onbekend / indie|2023
+1025|NLZ032511025|Nachtrit|Goldband|Onbekend / indie|2021
+1026|NLRS92011026|Sterren|Goldband|Onbekend / indie|2023
+1027|NLJM52111027|Weekend|goldband|Onbekend / indie|2022
+1028|NLX112211028|Vliegtuig|Gold Band|Onbekend / indie|2023
+1029||Groter Dan Ik|Froukje|Onbekend / indie|2020
+1030|NLA2B2411030|Soms|Froukje|Onbekend / indie|2021
+1031|NLX112511031|Ik Ben Er Klaar Mee|Froukje|Onbekend / indie|2022
+1032|NLK472011032|Blauw|Froukje|Onbekend / indie|2021
+1033|NLZ032111033|Stil In Mij|Froukje|Onbekend / indie|2023
+1034|NLZ032211034|Lichtjes|froukje|Onbekend / indie|2023
+1035|NLK472311035|Back It Up|Caro emerald|Grandmono|2010
+1036|NLX112411036|A Night Like This|Caro emerald|Grandmono|2010
+1037|NLJM52511037|Stuck|Caro Emerald|Grandmono|2013
+1038|NLJM52011038|Our Love|Caro emerald|Grandmono|2013
+1039|NLRS92111039|Tangled Up|Caro Emerald|Grandmono|2013
+1040|NLRS92211040|Excuse My French|Caro Emerald|Grandmono|2010
+1041|NLK472311041|In Your Arms|Chef Special|Universal Music NL|2017
+1042|NLZ032411042|Amigo|Chef'Special|Universal Music NL|2015
+1043|NLX112511043|Same Direction|Chefspecial|Universal Music NL|2016
+1044|NLJM52011044|He Waits|Chef Special|Universal Music NL|2021
+1045|NLK472111045|Jealous|Chef Special|Universal Music NL|2018
+1046|NLX112211046|Flying|Chef Special|Universal Music NL|2019
+1047|NLK472311047|Waves|Mr. Probz|Sony Music NL|2013
+1048|NLX112411048|Nothing Really Matters|Mr. Probz|Sony Music NL|2014
+1049|NLX112511049|Diamonds|Mr Probz|Sony Music NL|2015
+1050|NLK472011050|Air|Mr. Probz|Sony Music NL|2014
+1051|NLJM52111051|Rush|MR PROBZ|Sony Music NL|2013
+1052|NLK472211052|Zo Ook|maan|Universal Music NL|2017
+1053|NLZ032311053|Samen|maan|Universal Music NL|2018
+1054|NLK472411054|Dans|maan|Universal Music NL|2019
+1055|NLK472511055|Altijd|maan|Universal Music NL|2020
+1056|NLJM52011056|Nee|Maan|Universal Music NL|2021
+1057|NLJM52111057|Thuis|maan|Universal Music NL|2022
+1058|NLZ032211058|Houd Me Vast|NIELSON|Sony Music NL|2015
+1059|NLZ032311059|Sexy Als Ik Dans|NIELSON|Sony Music NL|2016
+1060|NLK472411060|Dat Wil Jij|nielson|Sony Music NL|2017
+1061|NLRS92511061|Ben Jij M'n Meisje|Nielson|Sony Music NL|2018
+1062|NLA2B2011062|Malle Ogen|nielson|Sony Music NL|2019
+1063|NLA2B2111063|Verlieft Op Jou|Nielson|Sony Music NL|2020
+1064|NLJM52211064|Soldier|Di-rect|Warner Music NL|2004
+1065|NLJM52311065|Stay|Di-rect|Warner Music NL|2015
+1066|NLRS92411066|I Can't Stop|Di-rect|Warner Music NL|2018
+1067|NLZ032511067|Where Did You Go|Di-rect|Warner Music NL|2019
+1068|NLRS92011068|Did You Ever|Di-rect|Warner Music NL|2020
+1069|NLRS92111069|Supernova|Di-rect|Warner Music NL|2022
+1070|NLRS92211070|Oceaan|racoon|Warner Music NL|2007
+1071|NLJM52311071|Love You More|Racoon|Warner Music NL|2010
+1072|NLA2B2411072|Rolling|RACOON|Warner Music NL|2010
+1073|NLRS92511073|Feel Like Flying|RACOON|Warner Music NL|onbekend
+1074|NLJM52011074|Liverpool|racoon|Warner Music NL|2015
+1075|NLA2B2111075|Another Day|racoon|Warner Music NL|2016
+1076|NLZ032211076|Better Off Alone|KANE|Warner Music NL|1997
+1077|NLZ032311077|This Is My Time|Kane|Warner Music NL|2004
+1078|NLJM52411078|No Surrender|Kane|Warner Music NL|2004
+1079|NLRS92511079|Rain Down on Me|KANE|Warner Music NL|2004
+1080|NLRS92011080|Perfect Day|Kane|Warner Music NL|2007
+1081|NLJM52111081|Joga|Björk|One Little Indian|1997
+1082|NLJM52211082|Hyperballad|björk|One Little Indian|1995
+1083|NLK472311083|Army of Me|Bjork|One Little Indian|1995
+1084|NLK472411084|Venus as a Boy|björk|One Little Indian|1993
+1085|NLRS92511085|Human Behaviour|Björk|One Little Indian|1993
+1086|NLZ032011086|Bachelorette|björk|One Little Indian|1997
+1087|NLA2B2111087|All Is Full of Love|Björk|One Little Indian|1997
+1088|NLX112211088|Mutual Core|björk|One Little Indian|2011
+1089||Wanderlust|Bjork|One Little Indian|2008
+1090|NLRS92411090|Halo|Beyonce|Columbia Records|2008
+1091|NLA2B2511091|Formation|Beyoncé|Columbia Records|2016
+1092|NLA2B2011092|Single Ladies|beyoncé|Columbia Records|2008
+1093|NLK472111093|Crazy in Love|Beyonce|Columbia Records|2003
+1094|NLRS92211094|Lemonade|beyoncé|Columbia Records|2016
+1095|NLX112311095|XO|Beyonce|Columbia Records|2013
+1096|NLK472411096|Love On Top|beyoncé|Columbia Records|2011
+1097|NLJM52511097|Drunk in Love|Beyonce|Columbia Records|2013
+1098|NLZ032011098|Irreplaceable|BEYONCE|Columbia Records|2006
+1099|NLZ032111099|Adagio for Strings|TIËSTO|Musical Freedom|2005
+1100|NLA2B2211100|Red Lights|tiesto|Musical Freedom|2013
+1101|NLK472311101|Wasted|Tiesto|Musical Freedom|2014
+1102|NLX112411102|The Business|Tiësto|Musical Freedom|2020
+1103|NLRS92511103|Traffic|Tiësto|Musical Freedom|2003
+1104|NLRS92011104|Just Be|Tiesto|Musical Freedom|2004
+1105|NLA2B2111105|Lethal Industry|Tiesto|Musical Freedom|2003
+1106|NLJM52211106|In My Memory|Tiësto|Musical Freedom|2001
+1107|NLK472311107|Hoppípolla|Sigur Rós|Krunk|2005
+1108|NLA2B2411108|Ára bátur|Sigur Rós|Krunk|2008
+1109|NLA2B2511109|Svefn-g-englar|SIGUR ROS|Krunk|1999
+1110|NLX112011110|Glosoli|Sigur Ros|Krunk|2005
+1111|NLK472111111|Festival|sigur rós|Krunk|2012
+1112|NLJM52211112|Brennisteinn|Sigur Ros|Krunk|2013
+1113|NLK472311113|Ára bátur|sigur rós|Krunk|2008
+1114|NLZ032411114|Creep|RADIOHEAD|XL Recordings|1992
+1115|NLA2B2511115|Karma Police|Radiohead|XL Recordings|1997
+1116|NLJM52011116|Paranoid Android|Radiohead|XL Recordings|1997
+1117||High and Dry|RADIOHEAD|XL Recordings|1995
+1118|NLZ032211118|Fake Plastic Trees|RADIOHEAD|XL Recordings|1995
+1119|NLJM52311119|No Surprises|RADIOHEAD|XL Recordings|1997
+1120||Everything in Its Right Place|Radiohead|XL Recordings|2000
+1121|NLJM52511121|2+2=5|radiohead|XL Recordings|2003
+1122|NLA2B2011122|Intro|The XX|Young Turks|2009
+1123|NLJM52111123|On Hold|The xx|Young Turks|2017
+1124|NLA2B2211124|Islands|THE XX|Young Turks|2009
+1125|NLK472311125|Crystallised|the xx|Young Turks|2009
+1126|NLRS92411126|Angels|the xx|Young Turks|2012
+1127|NLK472511127|Reunion|The xx|Young Turks|2012
+1128|NLK472011128|Basic Space|The xx|Young Turks|2009
+1129|NLZ032111129|Get Lucky|DAFT PUNK|Columbia Records|2013
+1130|NLA2B2211130|One More Time|Daft Punk|Columbia Records|2001
+1131|NLRS92311131|Around the World|DAFT PUNK|Columbia Records|1997
+1132|NLA2B2411132|Harder Better Faster Stronger|Daft Punk|Columbia Records|2001
+1133|NLRS92511133|Lose Yourself to Dance|daft punk|Columbia Records|2013
+1134|NLA2B2011134|Digital Love|Daft Punk|Columbia Records|2001
+1135|NLK472111135|Da Funk|Daft Punk|Columbia Records|1995
+1136|NLZ032211136|Something About Us|DAFT PUNK|Columbia Records|2001
+1137|NLK472311137|Teardrop|massive attack|Virgin / EMI|1998
+1138|NLA2B2411138|Unfinished Sympathy|massive attack|Virgin / EMI|1991
+1139|NLZ032511139|Safe from Harm|Massive Attack|Virgin / EMI|1991
+1140|NLZ032011140|Angel|Massive Attack|Virgin / EMI|1998
+1141|NLZ032111141|Inertia Creeps|massive attack|Virgin / EMI|1998
+1142|NLZ032211142|Paradise Circus|massive attack|Virgin / EMI|2010
+1143|NLJM52311143|Glory Box|PORTISHEAD|Go! Discs|1994
+1144|NLJM52411144|Sour Times|PORTISHEAD|Go! Discs|1994
+1145|NLZ032511145|Wandering Star|PORTISHEAD|Go! Discs|1994
+1146|NLK472011146|The Rip|Portishead|Go! Discs|2008
+1147|NLK472111147|Machine Gun|portishead|Go! Discs|2008
+1148||Roads|Portishead|Go! Discs|1994
+1149|NLRS92311149|Wake Up|arcade fire|Merge Records|2004
+1150|NLJM52411150|Rebellion|Arcade Fire|Merge Records|2004
+1151|NLA2B2511151|Sprawl II|ARCADE FIRE|Merge Records|2010
+1152|NLRS92011152|Ready to Start|Arcade Fire|Merge Records|2010
+1153|NLRS92111153|Reflektor|ARCADE FIRE|Merge Records|2013
+1154|NLK472211154|Everything Now|arcade fire|Merge Records|2017
+1155|NLRS92311155|Intervention|Arcade Fire|Merge Records|2007
+1156|NLK472411156|Into My Arms|Nick Cave & The Bad Seeds|Mute Records|1997
+1157|NLRS92511157|The Mercy Seat|Nick Cave & The Bad Seeds|Mute Records|1988
+1158|NLJM52011158|Red Right Hand|Nick Cave & The Bad Seeds|Mute Records|1994
+1159|NLZ032111159|Breathless|Nick Cave|Mute Records|2004
+1160|NLRS92211160|Push the Sky Away|Nick Cave & The Bad Seeds|Mute Records|2013
+1161|NLRS92311161|Distant Sky|Nick Cave|Mute Records|2016
+1162|NLRS92411162|Stories from the City|PJ Harvey|Island Records|2000
+1163|NLZ032511163|Let England Shake|PJ Harvey|Island Records|2011
+1164|NLX112011164|Down by the Water|pj harvey|Island Records|1995
+1165|NLJM52111165|C'mon Billy|P.J. Harvey|Island Records|1995
+1166|NLK472211166|This Is Love|pj harvey|Island Records|2001
+1167|NLZ032311167|The Words That Maketh Murder|pj harvey|Island Records|2011
+1168|NLJM52411168|Feel Good Inc.|Gorillaz|Parlophone|2005
+1169|NLX112511169|Clint Eastwood|GORILLAZ|Parlophone|2001
+1170|NLX112011170|DARE|gorillaz|Parlophone|2005
+1171|NLA2B2111171|On Melancholy Hill|Gorillaz|Parlophone|2010
+1172|NLRS92211172|Stylo|gorillaz|Parlophone|2010
+1173|NLA2B2311173|Empire Ants|GORILLAZ|Parlophone|2010
+1174|NLRS92411174|Tranz|Gorillaz|Parlophone|2018
+1175|NLRS92511175|Humanz|Gorillaz|Parlophone|2017
+1176||Dog Days Are Over|Florence+the Machine|Island Records|2009
+1177|NLA2B2111177|Shake It Out|Florence+the Machine|Island Records|2011
+1178|NLX112211178|You've Got the Love|Florence and the Machine|Island Records|2009
+1179|NLK472311179|Cosmic Love|Florence+the Machine|Island Records|2009
+1180|NLRS92411180|Spectrum|FLORENCE|Island Records|2012
+1181|NLRS92511181|Ship to Wreck|Florence+the Machine|Island Records|2015
+1182|NLJM52011182|Hunger|Florence + The Machine|Island Records|2018
+1183|NLX112111183|Youth|daughter|4AD|2013
+1184|NLA2B2211184|Landfill|daughter|4AD|2013
+1185|NLX112311185|Human|Daughter|4AD|2013
+1186|NLA2B2411186|Smother|Daughter|4AD|2013
+1187||Medicine|daughter|4AD|2014
+1188|NLX112011188|Still|Daughter|4AD|2016
+1189|NLRS92111189|Skinny Love|BON IVER|Jagjaguwar|2008
+1190|NLJM52211190|Holocene|Bon Iver|Jagjaguwar|2011
+1191|NLK472311191|Towers|BON IVER|Jagjaguwar|2011
+1192|NLJM52411192|Beth/Rest|bon iver|Jagjaguwar|2011
+1193|NLRS92511193|Heavenly Father|BON IVER|Jagjaguwar|2014
+1194|NLX112011194|715 - CR??KS|BON IVER|Jagjaguwar|2016
+1195||33 'GOD'|Bon Iver|Jagjaguwar|2016
+1196|NLZ032211196|Alors on Danse|STROMAE|Mosaert / Universal|2009
+1197||Papaoutai|stromae|Mosaert / Universal|2013
+1198|NLX112411198|Formidable|Stromae|Mosaert / Universal|2013
+1199|NLJM52511199|Tous les Mêmes|Stromae|Mosaert / Universal|2013
+1200|NLK472011200|L'enfer|stromae|Mosaert / Universal|2022
+1201|NLZ032111201|Santé|STROMAE|Mosaert / Universal|2021
+1202||Fils de Joie|STROMAE|Mosaert / Universal|2022
+1203|NLRS92311203|Tilted|Chris|Because Music|2014
+1204|NLA2B2411204|Paradis Perdus|Christine and the Queens|Because Music|1995.0
+1205|NLJM52511205|Girlfriend|Christine and the Queens|Because Music|2018
+1206|NLRS92011206|5 dollars|Christine & the Queens|Because Music|2018
+1207|NLX112011242|Damn, dis-moi|Christine and the Queens|Because Music|2022
+1208|NLZ032211208|Intranquillité|Christine & the Queens|Because Music|2022
+1209|NLA2B2311209|Something Good|alt-J|Infectious Music|2012
+1210|NLX112411210|Breezeblocks|ALT-J|Infectious Music|2012
+1211|NLX112511211|Tessellate|Alt-J|Infectious Music|2012
+1212|NLJM52011212|Fitzpleasure|alt-J|Infectious Music|2012
+1213|NLJM52111213|Dissolve Me|alt-J|Infectious Music|2012
+1214|NLX112211214|Hunger of the Pine|Alt-J|Infectious Music|2014
+1215|NLRS92311215|Every Other Freckle|alt j|Infectious Music|2014
+1216|NLK472411216|Hey Now|london grammar|Metal & Dust|2013
+1217|NLK472511217|Strong|London Grammar|Metal & Dust|2013
+1218|NLZ032011218|Wasting My Young Years|London Grammar|Metal & Dust|2013
+1219|NLK472111219|Nightcall|London Grammar|Metal & Dust|2013
+1220|NLRS92211502|Oh Woman Oh Man|london grammar|Metal & Dust|2017
+1221|NLJM52311221|Big Picture|LONDON GRAMMAR|Metal & Dust|2021
+1222|NLK472411222|Royals|LORDE|Universal Music NZ|2013
+1223|NLK472511223|Team|lorde|Universal Music NZ|2013
+1224|NLA2B2011224|Tennis Court|LORDE|Universal Music NZ|2013
+1225|NLA2B2111225|Green Light|lorde|Universal Music NZ|2017
+1226|NLK472211226|Supercut|lorde|Universal Music NZ|2017
+1227|NLZ032311227|Hard Feelings|Lorde|Universal Music NZ|2017
+1228|NLX112411228|Solar Power|lorde|Universal Music NZ|2021
+1229|NLK472511229|Stoned at the Nail Salon|Lorde|Universal Music NZ|2021
+1230|NLJM52011230|Take Me to Church|Hozier|Island Records|2013
+1231|NLZ032111231|Work Song|Hozier|Island Records|2014
+1232|NLX112211232|Someone New|HOZIER|Island Records|2014
+1233|NLX112311233|Like Real People Do|Hozier|Island Records|2014
+1234|NLJM52411234|Nina Cried Power|HOZIER|Island Records|2018
+1235|NLZ032511235|Movement|hozier|Island Records|2019
+1236|NLRS92011236|Too Sweet|hozier|Island Records|2024
+1237|NLA2B2111237|Anchor|NOVO AMOR|Believe|2015
+1238|NLX112211238|Birthplace|Novo Amor|Believe|2017
+1239|NLRS92311239|State Lines|Novo Amor|Believe|2016
+1240|NLA2B2411240|Repeat Until Death|NOVO AMOR|Believe|2017
+1241|NLRS92511241|Alps|Novo Amor|Believe|2014
+1242|NLX112011242|From Gold|NOVO AMOR|Believe|2017
+1243||Zoutelande|BLØF|Sony Music NL|2017
+1244|NLZ032211244|Aan de Kust|Bløf|Sony Music NL|1998
+1245|NLX112311245|Hard tegen Hard|Blof|Sony Music NL|2002
+1246||Dansen aan Zee|Bløf|Sony Music NL|2002
+1247|NLA2B2511247|Liefs Uit Londen|blof|Sony Music NL|2006
+1248|NLX112011248|Dichter bij het Vuur|Blof|Sony Music NL|2012
+1249|NLA2B2111249|Hier|blof|Sony Music NL|2019
+1250|NLRS92211250|In Je Armen|BLØF|Sony Music NL|2015
+1251|NLJM52311251|Spiegels|typhoon|V2 Records / PIAS|2014
+1252|NLJM52411252|Lobi da Basi|Typhoon|V2 Records / PIAS|2014
+1253|NLRS92511253|Slow Down|typhoon|V2 Records / PIAS|2014
+1254|NLJM52011254|De Kweker|typhoon|V2 Records / PIAS|2016
+1255|NLX112111255|Iemand|typhoon|V2 Records / PIAS|2019
+1256|NLJM52211256|Broederliefde|typhoon|V2 Records / PIAS|2017
+1257|NLRS92311257|All I Need|typhoon|V2 Records / PIAS|2020
+1258||Buurman|Kraantje Pappie|Top Notch|2017
+1259|NLJM52511259|Ik Ga|kraantje pappie|Top Notch|2018
+1260|NLJM52011260|Swag|kraantje pappie|Top Notch|2016
+1261|NLK472111261|Likkewaan|KP|Top Notch|2019
+1262|NLRS92211262|Nummer 1|KP|Top Notch|2021
+1263|NLZ032311263|Niet Zoals Anderen|eefje de visser|V2 Benelux|2018
+1264|NLA2B2411264|Ijs|EEFJE DE VISSER|V2 Benelux|2015
+1265|NLX112511265|Terug|eefje de visser|V2 Benelux|2016
+1266||Maar de Maan Staat Stil|Eefje de Visser|V2 Benelux|2020
+1267|NLRS92111267|De Wind Heeft je Naam|EEFJE DE VISSER|V2 Benelux|2022
+1268|NLX112211268|Bitterzoet|EEFJE DE VISSER|V2 Benelux|2018
+1269|NLZ032311269|Op Mij|sanne hans|V2 Benelux|2018
+1270|NLJM52411270|Teleurstelling|sanne hans|V2 Benelux|2017
+1271|NLRS92511271|Bloed Kruipt|Sanne Hans|V2 Benelux|2019
+1272|NLJM52011272|Vuur|sanne hans|V2 Benelux|2020
+1273|NLJM52111273|Vlees|Sanne Hans|V2 Benelux|2021
+1274|NLX112211274|Tinfoil|Pip Blom|Heavenly Recordings|2019
+1275|NLJM52311275|School|PIP BLOM|Heavenly Recordings|2019
+1276|NLRS92411276|Boats|PIP BLOM|Heavenly Recordings|2019
+1277|NLA2B2511277|Keep It Together|pip blom|Heavenly Recordings|2019
+1278|NLJM52011278|Paycheck|Pip Blom|Heavenly Recordings|2021
+1279|NLK472111279|Trust|pip blom|Heavenly Recordings|2021
+1280|NLK472211280|Goochelaars en Leugenaars|Spinvis|V2 Benelux|2004
+1281|NLA2B2311281|Dansen bij Pauline|Spinvis|V2 Benelux|2003
+1282|NLZ032411282|Voor Ik Vergeet|Spinvis|V2 Benelux|2004
+1283|NLA2B2511283|Astronaut|SPINVIS|V2 Benelux|2004
+1284|NLZ032011284|Aliens|spinvis|V2 Benelux|2008
+1285|NLRS92111285|Schemerjager|SPINVIS|V2 Benelux|2013
+1286||Multicolor|Douwe Bob|Universal Music NL|2013
+1287|NLZ032311287|Love Me Tender|DOUWE BOB|Universal Music NL|2013
+1288|NLZ032411288|As Long as I'm Breathing|douwe bob|Universal Music NL|2016
+1289|NLK472511289|Tides|Douwe Bob|Universal Music NL|2016
+1290|NLJM52011290|Born to Be Alone|DOUWE BOB|Universal Music NL|2021
+1291|NLA2B2111291|Long Live the Kings|Douwe Bob|Universal Music NL|2019
+1292|NLK472211292|Never Let Me Go|michael prins|PIAS|2012
+1293|NLJM52311293|Dark & Grey|Michael Prins|PIAS|2013
+1294|NLZ032411294|Dead End|MICHAEL PRINS|PIAS|2014
+1295|NLRS92511295|No Good|Michael Prins|PIAS|2015
+1296|NLA2B2011296|Run|Michael Prins|PIAS|2016
+1297|NLK472111297|Munich|EDITORS|PIAS|2005
+1298|NLJM52211298|Blood|EDITORS|PIAS|2007
+1299||Papillon|editors|PIAS|2009
+1300|NLX112411300|Sugar|editors|PIAS|2013
+1301|NLRS92511301|A Ton of Love|EDITORS|PIAS|2015
+1302|NLRS92011302|Hallelujah|editors|PIAS|2018
+1303|NLRS92111303|Heart Attack|EDITORS|PIAS|2013
+1304|NLK472211304|Bloodbuzz Ohio|the national|4AD|2010
+1305|NLZ032311305|Afraid of Everyone|THE NATIONAL|4AD|2010
+1306|NLX112411306|England|the national|4AD|2013
+1307|NLJM52511307|Sorrow|The National|4AD|2010
+1308|NLRS92011308|I Need My Girl|the national|4AD|2013
+1309|NLJM52111309|Rylan|the national|4AD|2013
+1310|NLX112211310|Carin at the Liquor Store|The National|4AD|2019
+1311|NLA2B2311311|Chicago|sufjan stevens|Asthmatic Kitty|2005
+1312|NLX112411312|Death with Dignity|SUFJAN STEVENS|Asthmatic Kitty|2015
+1313|NLX112511313|Should Have Known Better|Sufjan Stevens|Asthmatic Kitty|2015
+1314|NLX112011314|Casimir Pulaski Day|sufjan stevens|Asthmatic Kitty|2005
+1315|NLA2B2111315|The Only Thing|SUFJAN STEVENS|Asthmatic Kitty|2015
+1316|NLK472211316|Carrie & Lowell|Sufjan Stevens|Asthmatic Kitty|2015
+1317|NLZ032311317|Retrograde|James Blake|Republic Records|2013
+1318|NLK472411318|Limit to Your Love|JAMES BLAKE|Republic Records|2011
+1319|NLK472511319|Overgrown|JAMES BLAKE|Republic Records|2013
+1320|NLZ032011320|Life Round Here|James Blake|Republic Records|2013
+1321|NLX112111321|The Wilhelm Scream|james blake|Republic Records|2011
+1322|NLZ032211322|Godspeed|JAMES BLAKE|Republic Records|2019
+1323|NLA2B2311323|Are You Even Real|james blake|Republic Records|2019
+1324|NLZ032411324|Bad Kingdom|Moderat|Monkeytown Records|2013
+1325|NLRS92511325|A New Error|MODERAT|Monkeytown Records|2009
+1326|NLA2B2011326|Milk|moderat|Monkeytown Records|2013
+1327|NLZ032111327|Reminder|moderat|Monkeytown Records|2016
+1328|NLA2B2211328|Eating Hooks|MODERAT|Monkeytown Records|2009
+1329||More Love|MODERAT|Monkeytown Records|2016
+1330|NLZ032411330|My Angel Rocks Back and Forth|Kieran Hebden|Text Records|2003
+1331|NLZ032511331|Love Cry|four tet|Text Records|2010
+1332|NLX112011332|Angel Echoes|four tet|Text Records|2010
+1333||Locked|Kieran Hebden|Text Records|2017
+1334|NLZ032211334|Two Thousand and Seventeen|Four Tet|Text Records|2017
+1335|NLJM52311335|Parallel|FOUR TET|Text Records|2021
+1336|NLJM52411336|Kong|Simon Green|Ninja Tune|2017
+1337|NLZ032511337|Break Apart|bonobo|Ninja Tune|2017
+1338|NLRS92011338|Ten Tigers|bonobo|Ninja Tune|2013
+1339||Kiara|Bonobo|Ninja Tune|2010
+1340|NLA2B2211340|Outlier|Bonobo|Ninja Tune|2017
+1341|NLK472311341|Surface|Simon Green|Ninja Tune|2017
+1342|NLK472411342|Grains|Simon Green|Ninja Tune|2013
+1343|NLX112511343|Says|Nils Frahm|Erased Tapes|2013
+1344|NLX112011344|All Melody|nils frahm|Erased Tapes|2018
+1345|NLZ032111345|Toilet Brushes|Nils Frahm|Erased Tapes|2013
+1346|NLX112211346|Hammers|nils frahm|Erased Tapes|2015
+1347|NLX112311347|Familiar|nils frahm|Erased Tapes|2018
+1348|NLX112411348|Sunson|nils frahm|Erased Tapes|2018
+1349|NLZ032511349|Near Light|Olafur Arnalds|Mercury KX|2013
+1350|NLJM52011350|Near Light (w/ Nils Frahm)|Olafur Arnalds|Mercury KX|2015
+1351|NLX112111351|So Close|Olafur Arnalds|Mercury KX|2018
+1352|NLJM52211352|Unfold|Ólafur Arnalds|Mercury KX|2013
+1353|NLJM52311353|Doria|Olafur Arnalds|Mercury KX|2018
+1354|NLA2B2411354|Zero|Olafur Arnalds|Mercury KX|2021
+1355|NLK472511355|Back to the Sky|Ólafur Arnalds|Mercury KX|2021
+1356|NLRS92011356|Your Hand in Mine|Explosions in the Sky|Temporary Residence|2003
+1357|NLK472111357|First Breath After Coma|Explosions in the Sky|Temporary Residence|2003
+1358|NLZ032211358|The Birth and Death of the Day|Explosions in the Sky|Temporary Residence|2007
+1359|NLA2B2311359|Catastrophe and the Cure|EITS|Temporary Residence|2007
+1360|NLK472411360|Be Comfortable Creature|EITS|Temporary Residence|2011
+1361|NLJM52511361|Postcard from 1952|explosions in the sky|Temporary Residence|2011
+1362|NLX112011362|Cody|MOGWAI|Rock Action Records|1997
+1363|NLRS92111363|2 Rights Make 1 Wrong|Mogwai|Rock Action Records|2001
+1364|NLJM52211364|Hunted by a Freak|mogwai|Rock Action Records|2003
+1365|NLA2B2311365|Rano Pano|mogwai|Rock Action Records|2011
+1366|NLX112411366|Rez (Simian cover)|Mogwai|Rock Action Records|2003
+1367|NLRS92511367|Remurdered|Mogwai|Rock Action Records|2014
+1368|NLX112011368|Ritchie Sacramento|Mogwai|Rock Action Records|2021
+1369|NLJM52111369|Under the Pressure|WAR ON DRUGS|Atlantic Records|2014
+1370|NLZ032211370|Red Eyes|the war on drugs|Atlantic Records|2014
+1371|NLK472311371|Arms Like Boulders|WAR ON DRUGS|Atlantic Records|2011
+1372|NLRS92411372|Holding On|The War on Drugs|Atlantic Records|2017
+1373|NLJM52511373|Pain|WAR ON DRUGS|Atlantic Records|2017
+1374|NLA2B2011374|In Chains|The War on Drugs|Atlantic Records|2017
+1375|NLX112111375|I Don't Live Here Anymore|WAR ON DRUGS|Atlantic Records|2021
+1376|NLRS92211376|Shut Up Kiss Me|ANGEL OLSEN|Jagjaguwar|2016
+1377|NLRS92311377|Intern|Angel Olsen|Jagjaguwar|2016
+1378|NLX112411378|All Mirrors|Angel Olsen|Jagjaguwar|2019
+1379|NLZ032511379|Lark|ANGEL OLSEN|Jagjaguwar|2019
+1380|NLX112011380|Whole New Mess|ANGEL OLSEN|Jagjaguwar|2020
+1381|NLRS92111381|Big Time|Angel Olsen|Jagjaguwar|2022
+1382|NLX112211382|Through the Fires|ANGEL OLSEN|Jagjaguwar|2022
+1383|NLZ032311383|Wakin on a Pretty Daze|Kurt Vile|Matador Records|2013
+1384|NLA2B2411384|Pretty Pimpin|kurt vile|Matador Records|2015
+1385|NLX112511385|Life Like This|kurt vile|Matador Records|2018
+1386|NLZ032011386|Loading Zones|KURT VILE|Matador Records|2018
+1387|NLK472111387|One Trick Ponies|KURT VILE|Matador Records|2013
+1388|NLK472211388|Check Baby|kurt vile|Matador Records|2013
+1389|NLRS92311389|Recite Remorse|WAXAHATCHEE|Merge Records|2020
+1390|NLX112411390|Fire|WAXAHATCHEE|Merge Records|2020
+1391|NLRS92511391|Silver|WAXAHATCHEE|Merge Records|2020
+1392|NLZ032011392|St. Cloud|waxahatchee|Merge Records|2020
+1393|NLJM52111393|Can't Do Much|waxahatchee|Merge Records|2020
+1394|NLX112211394|Lilacs|WAXAHATCHEE|Merge Records|2020
+1395|NLK472311395|Motion Sickness|phoebe bridgers|Dead Oceans|2017
+1396|NLX112411396|Funeral|Phoebe Bridgers|Dead Oceans|2017
+1397||Savior Complex|phoebe bridgers|Dead Oceans|2019
+1398|NLRS92011398|Garden Song|phoebe bridgers|Dead Oceans|2019
+1399|NLJM52111399|Kyoto|PHOEBE BRIDGERS|Dead Oceans|2020
+1400|NLX112211400|Savior Complex|phoebe bridgers|Dead Oceans|2019
+1401|NLZ032311401|Moon Song|Phoebe Bridgers|Dead Oceans|2019
+1402|NLK472411402|Masterpiece|big thief|4AD|2016
+1403|NLK472511403|Mythological Beauty|big thief|4AD|2017
+1404|NLX112011404|UFOF|big thief|4AD|2019
+1405|NLX112111405|Not|big thief|4AD|2020
+1406|NLJM52211406|Cattails|BIG THIEF|4AD|2019
+1407|NLRS92311407|Change|big thief|4AD|2022
+1408|NLRS92411408|Simulation Swarm|Big Thief|4AD|2022
+1409|NLA2B2511409|Mountain at My Gates|Foals|Warner Records|2015
+1410|NLJM52011410|My Number|Foals|Warner Records|2013
+1411|NLZ032111411|Spanish Sahara|FOALS|Warner Records|2010
+1412|NLK472211412|Mountain at My Gates|foals|Warner Records|2015
+1413|NLZ032311413|In Degrees|foals|Warner Records|2019
+1414|NLJM52411414|Black Bull|foals|Warner Records|2022
+1415|NLZ032511415|2am|FOALS|Warner Records|2022
+1416|NLA2B2011416|Wake Me Up|Foals|Warner Records|2019
+1417|NLK472111417|Breezeblocks|ALT-J|Infectious Music|2012
+1418|NLJM52211418|Something Good|altJ|Infectious Music|2012
+1419|NLX112311419|Tessellate|Alt-J|Infectious Music|2012
+1420|NLZ032411420|Fitzpleasure|ALT-J|Infectious Music|2012
+1421|NLZ032511421|Hunger of the Pine|ALT-J|Infectious Music|2014
+1422|NLX112011422|Every Other Freckle|ALT-J|Infectious Music|2014
+1423|NLX112111423|In Cold Blood|altJ|Infectious Music|2017
+1424|NLX112211424|Deadcrush|ALT-J|Infectious Music|2017
+1425|NLA2B2311425|Feels Like We Only Go Backwards|Tame Impala|Modular Recordings|2012
+1426|NLK472411426|Elephant|TAME IMPALA|Modular Recordings|2012
+1427|NLA2B2511427|Let It Happen|tame impala|Modular Recordings|2015
+1428|NLRS92011428|Eventually|TAME IMPALA|Modular Recordings|2015
+1429|NLK472111429|The Less I Know the Better|TAME IMPALA|Modular Recordings|2015
+1430|NLK472211430|Borderline|Tame Impala|Modular Recordings|2019
+1431|NLZ032311431|It Might Be Time|TAME IMPALA|Modular Recordings|2019
+1432|NLJM52411432|Is It True|tame impala|Modular Recordings|2020
+1433|NLRS92511433|Space Song|BEACH HOUSE|Sub Pop|2015
+1434|NLX112011434|Myth|BEACH HOUSE|Sub Pop|2012
+1435|NLK472111435|Lazuli|Beach House|Sub Pop|2012
+1436|NLK472211436|Levitation|beach house|Sub Pop|2015
+1437|NLK472311437|Walk in the Park|beach house|Sub Pop|2010
+1438|NLA2B2411438|Dark Spring|beach house|Sub Pop|2022
+1439|NLRS92511439|Once Twice Melody|BEACH HOUSE|Sub Pop|2022
+1440|NLX112011440|Apocalypse|Cigarettes After Sex|Partisan Records|2017
+1441|NLA2B2111441|Sunsetz|Cigarettes After Sex|Partisan Records|2017
+1442|NLX112211442|Each Time You Fall in Love|CAS|Partisan Records|2017
+1443|NLK472311443|K.|CAS|Partisan Records|2017
+1444|NLZ032411444|Cry|CAS|Partisan Records|2019
+1445|NLA2B2511445|Tejano Blue|Cigarettes After Sex|Partisan Records|2019
+1446|NLX112011446|White Gloves|KHRUANGBIN|Night Time Stories|2018
+1447|NLZ032111447|Lady and Man|khruangbin|Night Time Stories|2018
+1448|NLX112211448|Time (You and I)|khruangbin|Night Time Stories|19
+1449|NLA2B2311449|Pelota|Khruangbin|Night Time Stories|2020
+1450|NLZ032411450|A Piece of Fame|khruangbin|Night Time Stories|2020
+1451|NLA2B2511451|So We Won't Forget|Khruangbin|Night Time Stories|2022
+1452|NLZ032011452|Corner Deli|khruangbin|Night Time Stories|2022
+1453|NLRS92111453|Sun|Caribou|City Slang|2010
+1454|NLK472211454|Can't Do Without You|Caribou|City Slang|2014
+1455|NLRS92311455|Our Love|CARIBOU|City Slang|2014
+1456|NLA2B2411456|Bowls|caribou|City Slang|2014
+1457|NLA2B2511457|You and I|CARIBOU|City Slang|2010
+1458|NLRS92011458|Home|Manitoba|City Slang|2020
+1459|NLRS92111459|Sister|CARIBOU|City Slang|2020
+1460|NLZ032211460|Caravan|efterklang|City Slang|2012
+1461|NLX112311461|Modern Drift|efterklang|City Slang|2012
+1462|NLZ032411462|I Was Playing Drums|EFTERKLANG|City Slang|2010
+1463|NLRS92511463|Alike|efterklang|City Slang|2010
+1464|NLA2B2011464|Between the Walls|EFTERKLANG|City Slang|2017
+1465|NLJM52111465|Leaves|EFTERKLANG|City Slang|2017
+1466|NLK472211466|Riverside|Agnes Obel|PIAS|2010
+1467|NLK472311467|Fuel to Fire|AGNES OBEL|PIAS|2013
+1468|NLJM52411468|Dorian|agnes obel|PIAS|2016
+1469|NLK472511469|Familiar|Agnes Obel|PIAS|2016
+1470|NLK472011470|It's Happening Again|Agnes Obel|PIAS|2013
+1471|NLA2B2111471|Stretch Your Eyes|AGNES OBEL|PIAS|2010
+1472|NLA2B2211472|Island of Doom|Agnes Obel|PIAS|2020
+1473|NLZ032311473|Heartbeats|JOSE GONZALEZ|Peacefrog Records|2003
+1474|NLX112411474|Crosses|JOSE GONZALEZ|Peacefrog Records|2005
+1475|NLK472511475|Down the Line|José González|Peacefrog Records|2007
+1476|NLJM52011476|Stay Alive|jose gonzalez|Peacefrog Records|2014
+1477|NLJM52111477|Every Age|jose gonzalez|Peacefrog Records|2007
+1478|NLA2B2211478|Killing for Love|JOSE GONZALEZ|Peacefrog Records|2015
+1479|NLX112311479|El Invento|Jose Gonzalez|Peacefrog Records|2021
+1480|NLRS92411480|A Life for Me|bon voyage organisation|Record Makers|2010
+1481|NLK472511481|Le Feu|bon voyage organisation|Record Makers|2012
+1482|NLA2B2011482|Paradiso|BVO|Record Makers|2012
+1483|NLK472111483|Retiro|bon voyage organisation|Record Makers|2015
+1484|NLK472211484|Marée Haute|bon voyage organisation|Record Makers|2012
+1485|NLK472311485|Mandarine Girl|booka shade|Get Physical Music|2006
+1486|NLA2B2411486|Body Language|Booka Shade|Get Physical Music|2006
+1487||In White Rooms|Booka Shade|Get Physical Music|2006
+1488|NLJM52011488|Regenerate|BOOKA SHADE|Get Physical Music|2012
+1489|NLX112111489|Prince of Pleasure|BOOKA SHADE|Get Physical Music|2016
+1490|NLA2B2211490|Outskirts|booka shade|Get Physical Music|2018
+1491|NLJM52311491|Goodbye|apparat|Mute Records|2011
+1492|NLJM52411492|Ash/Black Veil|apparat|Mute Records|2011
+1493|NLX112511493|Black Water|apparat|Mute Records|2015
+1494|NLRS92011494|Dawan|APPARAT|Mute Records|2019
+1495|NLZ032111495|Heroist|apparat|Mute Records|2011
+1496|NLRS92211496|Walls|Apparat|Mute Records|2015
+1497|NLZ032311497|Quitter's Raga|Gold Panda|Nomark|2010
+1498|NLX112411498|You|GOLD PANDA|Nomark|2010
+1499|NLX112511499|You Never Knew|GOLD PANDA|Nomark|2010
+1500|NLA2B2011500|Marriage|Gold Panda|Nomark|2013
+1501|NLJM52111501|Community|Gold Panda|Nomark|2016
+1502|NLRS92211502|Time Eater|GOLD PANDA|Nomark|2016
+1503|NLJM52311503|Lovers Carvings|Bibio|Warp Records|2009
+1504|NLRS92411504|Jealous of Roses|BIBIO|Warp Records|2009
+1505|NLK472511505|Haikuesque (When She Laughs)|Bibio|Warp Records|2011
+1506|NLRS92011506|K is for Kelson|Stephen Wilkinson|Warp Records|2011
+1507|NLX112111507|A tout a l'heure|Stephen Wilkinson|Warp Records|2014
+1508|NLRS92211508|Petals|bibio|Warp Records|2014
+1509||LesAlpx|Sam Shepherd|Pluto|2017
+1510|NLA2B2411510|Silhouettes I, II & III|Sam Shepherd|Pluto|2017
+1511|NLX112511511|Nespole|Sam Shepherd|Pluto|2019
+1512||Karakul|Sam Shepherd|Pluto|2019
+1513|NLJM52111513|Cascade|FLOATING POINTS|Pluto|2021
+1514|NLK472211514|LesAlpx|Floating Points|Pluto|2017
+1515|NLZ032311515|Brokendate|COM TRUISE|Ghostly International|2012
+1516|NLX112411516|Ether Drift|Seth Haley|Ghostly International|2017
+1517|NLRS92511517|Isostasy|Seth Haley|Ghostly International|2012
+1518|NLZ032011518|Propagation|Com Truise|Ghostly International|2012
+1519||Ultrafiche of You|Com Truise|Ghostly International|2017
+1520|NLX112211520|Syrthio|COM TRUISE|Ghostly International|2020
+1521|NLZ032311521|Looped|Kiasmos|Erased Tapes|2014
+1522|NLA2B2411522|Swept|KIASMOS|Erased Tapes|2014
+1523|NLRS92511523|Blurred|KIASMOS|Erased Tapes|2014
+1524|NLZ032011524|Burnt|kiasmos|Erased Tapes|2014
+1525|NLK472111525|Jarred|Kiasmos|Erased Tapes|2019
+1526|NLX112211526|Shed|KIASMOS|Erased Tapes|2019
+1527|NLJM52311527|Gold|Nick Murphy|Downtown Records|2014
+1528|NLA2B2411528|Talk Is Cheap|Nick Murphy|Downtown Records|2014
+1529|NLX112511529|I'm Into You|chet faker|Downtown Records|2014
+1530|NLX112011530|Cigarettes & Loneliness|chet faker|Downtown Records|2014
+1531|NLJM52111531|No Diggity|Nick Murphy|Downtown Records|2012
+1532|NLA2B2211532|1998|Nick Murphy|Downtown Records|2014
+1533|NLJM52311533|Warm Tones|Catching Flies|Independent|2016
+1534|NLK472411534|Easy Tiger|CATCHING FLIES|Independent|2019
+1535|NLK472511535|Crystallise|CATCHING FLIES|Independent|2019
+1536|NLRS92011536|Starlite|catching flies|Independent|2019
+1537|NLRS92111537|Catcher|Catching Flies|Independent|2016
+1538|NLA2B2211538|Golden|catching flies|Independent|2019
+1539|NLA2B2311539|Fifteen Floors|Balthazar|PIAS|2010
+1540|NLA2B2411540|Losers|balthazar|PIAS|2015
+1541|NLK472511541|Halfway to Nowhere|BALTHAZAR|PIAS|2018
+1542|NLJM52011542|Fever|balthazar|PIAS|2018
+1543|NLRS92111543|I've Been in Trouble|balthazar|PIAS|2022
+1544|NLX112211544|Linger|BALTHAZAR|PIAS|2022
+1545|NLZ032311545|Shiver|balthazar|PIAS|2010
+1546||One Rizla|shame|Dead Oceans|2018
+1547|NLRS92511547|The Lick|shame|Dead Oceans|2018
+1548|NLZ032011548|Tasteless|Shame|Dead Oceans|2021
+1549|NLRS92111549|Great Dog|Shame|Dead Oceans|2021
+1550|NLJM52211550|Alphabet|SHAME|Dead Oceans|2021
+1551|NLA2B2311551|Nigel Hitter|Shame|Dead Oceans|2018
+1552|NLZ032411552|Strong Feelings|dry cleaning|4AD|2021
+1553|NLRS92511553|Scratchcard Lanyard|dry cleaning|4AD|2021
+1554|NLA2B2011554|New Long Leg|dry cleaning|4AD|2021
+1555|NLJM52111555|Don't Press Me|dry cleaning|4AD|2021
+1556|NLRS92211556|Shaking Hand|dry cleaning|4AD|2022
+1557|NLJM52311557|Anna Calls from the Arctic|DRY CLEANING|4AD|2021
+1558|NLK472411558|bmbmbm|blackmidi|Rough Trade|2019
+1559|NLRS92511559|Sweater|blackmidi|Rough Trade|2019
+1560|NLX112011560|Slow|blackmidi|Rough Trade|2021
+1561|NLRS92111561|John L|BLACK MIDI|Rough Trade|2021
+1562|NLZ032211562|Talking Heads|blackmidi|Rough Trade|2022
+1563|NLK472311563|The Race Is About to Begin|BLACK MIDI|Rough Trade|2022
+1564||Narrator|SQUID|Warp Records|2021
+1565|NLZ032511565|Paddling|SQUID|Warp Records|2021
+1566|NLZ032011566|G.S.K.|Squid|Warp Records|2021
+1567|NLX112111567|2010|Squid|Warp Records|2021
+1568|NLZ032211568|The Cleaner|SQUID|Warp Records|2022
+1569||Swing|SQUID|Warp Records|2022
+1570|NLJM52411570|I Only Drink When I'm Drunk|bc camplight|Bella Union|2017
+1571||Deportation Blues|BC CAMPLIGHT|Bella Union|2017
+1572|NLA2B2011572|Back to Work|bc camplight|Bella Union|2019
+1573|NLRS92111573|The Last Act of Charity|BC Camplight|Bella Union|2019
+1574|NLX112211574|We Never Argue Anymore|BC CAMPLIGHT|Bella Union|2022
+1575|NLZ032311575|My Eyes Are Basically Closed|BC Camplight|Bella Union|2022
+1576|NLRS92411576|Undertow|Warpaint|Rough Trade|2010
+1577|NLA2B2511577|Majesty|warpaint|Rough Trade|2014
+1578|NLK472011578|Love Is to Die|WARPAINT|Rough Trade|2014
+1579|NLJM52111579|New Song|warpaint|Rough Trade|2016
+1580|NLA2B2211580|Whiteout|Warpaint|Rough Trade|2016
+1581|NLX112311581|Champion|warpaint|Rough Trade|2023
+1582|NLRS92411582|Youth (2013)|DAUGHTER|4AD|2013
+1583|NLZ032511583|Landfill (reissue)|daughter (UK)|4AD|2014
+1584|NLA2B2011584|Human (live)|daughter (UK)|4AD|2014
+1585|NLJM52111585|Numbers|DAUGHTER|4AD|2016
+1586|NLZ032211586|To Belong|daughter (UK)|4AD|2019
+1587|NLJM52311587|Rhymes|hannah wants|Lemon Recordings|2016
+1588|NLZ032411588|Showstopper|HANNAH WANTS|Lemon Recordings|2014
+1589|NLA2B2511589|Ghosts n Stuff (Edit)|HANNAH WANTS|Lemon Recordings|2015
+1590|NLA2B2011590|Hungry for the Power|HANNAH WANTS|Lemon Recordings|2016
+1591|NLJM52111591|Further Recordings|Hannah Wants  ÿþï¾­Þ
