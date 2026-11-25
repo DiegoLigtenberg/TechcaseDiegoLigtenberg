@@ -87,16 +87,15 @@ async def _payload(graph, config, question: str):
     return {"messages": initial_messages(question)}
 
 
-async def _final_answer(graph, config) -> str:
-    """Last AI text without tool_calls, read from checkpoint after the stream."""
-    state = await graph.aget_state(config)
-    for msg in reversed(state.values.get("messages", [])):
-        if isinstance(msg, AIMessage) and not msg.tool_calls and msg.text.strip():
-            return msg.text.strip()
-    return (
-        "No final answer was produced — tools ran, but the model did not return "
-        "a closing reply. Try again."
-    )
+def clear_results() -> int:
+    """Delete files in results/. Returns how many were removed."""
+    RESULTS_DIR.mkdir(exist_ok=True)
+    removed = 0
+    for path in RESULTS_DIR.iterdir():
+        if path.is_file():
+            path.unlink()
+            removed += 1
+    return removed
 
 
 def _note(steps: list, node: str, name: str, previous: float, **extra) -> float:
@@ -108,15 +107,16 @@ def _note(steps: list, node: str, name: str, previous: float, **extra) -> float:
     return now
 
 
-def clear_results() -> int:
-    """Delete files in results/. Returns how many were removed."""
-    RESULTS_DIR.mkdir(exist_ok=True)
-    removed = 0
-    for path in RESULTS_DIR.iterdir():
-        if path.is_file():
-            path.unlink()
-            removed += 1
-    return removed
+async def _final_answer(graph, config) -> str:
+    """Last AI text without tool_calls, read from checkpoint after the stream."""
+    state = await graph.aget_state(config)
+    for msg in reversed(state.values.get("messages", [])):
+        if isinstance(msg, AIMessage) and not msg.tool_calls and msg.text.strip():
+            return msg.text.strip()
+    return (
+        "No final answer was produced — tools ran, but the model did not return "
+        "a closing reply. Try again."
+    )
 
 
 def write_chat_trace(
