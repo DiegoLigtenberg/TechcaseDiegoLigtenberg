@@ -1,6 +1,7 @@
 """ReAct agent over the read-only tools in tools.py."""
 
 import asyncio
+import os
 import sys
 from time import monotonic
 from uuid import uuid4
@@ -107,10 +108,13 @@ def build_graph(tools, checkpointer):
 
 def build_mcp_client() -> Client:
     """Stdio MCP client that starts tools.py as a child process."""
+    # StdioTransport sanitizes the child env unless we pass one explicitly —
+    # without this, read_document cannot see OPENAI_API_KEY (Railway/local).
     return Client(
         StdioTransport(
             command=sys.executable,
             args=[str(PROJECT_DIR / "tools.py")],
+            env=os.environ.copy(),
         )
     )
 
