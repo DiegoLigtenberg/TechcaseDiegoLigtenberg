@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catalog agent</title>
+    <link rel="stylesheet" href="chat.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="shell">
+        <header class="top">
+            <div class="brand">
+                <span class="brand-mark" aria-hidden="true"></span>
+                <div>
+                    <h1>Catalog agent</h1>
+                    <p class="tagline">Music catalog &amp; licensing questions</p>
+                </div>
+            </div>
+            <button type="button" id="new-chat-btn" class="ghost">New chat</button>
+        </header>
+        <main class="main" id="main">
+            <div class="chat" id="chat-window"></div>
+        </main>
+        <section class="suggestions" id="suggestions" aria-label="Case questions">
+            <button type="button" class="suggestions-toggle" id="suggestions-toggle" aria-expanded="true">
+                <span>Case questions</span>
+                <span class="chevron" aria-hidden="true">▾</span>
+            </button>
+            <div class="suggestion-list" id="suggestion-list"></div>
+        </section>
+        <footer class="input-area" id="input-area">
+            <textarea class="input" id="user-input" placeholder="Ask about tracks, royalties, licenses…" autofocus rows="1"></textarea>
+            <button type="button" class="submit-button" id="send-btn">Send</button>
+        </footer>
+    </div>
+    <div class="source-overlay" id="source-overlay" hidden>
+        <div class="source-modal" role="dialog" aria-modal="true" aria-labelledby="source-title">
+            <header class="source-header">
+                <h2 id="source-title">Source</h2>
+                <button type="button" class="source-close" id="source-close" aria-label="Close">Close</button>
+            </header>
+            <div class="source-body" id="source-body"></div>
+        </div>
+    </div>
+    <script src="chat.js"></script>
+</body>
+</html>

@@ -56,3 +56,26 @@ En een kort logboek (mag in de README) waarin je iets zegt over:
 * hoe je je keuzes onderbouwt
 
 We nemen je oplossing door tijdens een live demo op je eigen machine. Daarbij vragen we door op je keuzes, ook op de stukken die een AI-assistent voor je heeft geschreven. Zorg dus dat je kunt uitleggen wat er staat.
+
+## Prototype draaien
+
+```text
+python -m venv .venv
+.venv\Scripts\pip install -r requirements.txt
+```
+
+Zet in `.env`:
+
+```text
+OPENAI_API_KEY=
+OPENAI_MODEL=
+OPENAI_REASONING_EFFORT=low
+```
+
+| | |
+|---|---|
+| CLI | `.venv\Scripts\python.exe agent.py "Je vraag"` |
+| Web | `.venv\Scripts\python.exe app.py` → http://127.0.0.1:8000 |
+| Tests | `.venv\Scripts\python.exe -m pytest test_tools.py -v` |
+
+De agent zoekt in de catalogus en de rechten-CSV (`find_tracks`, `find_licenses`) en leest een PDF in één keer (`read_document`). Per chatbeurt is er 30 seconden zoektijd; daarna antwoordt hij met wat hij heeft. Lange lijsten gaan naar `results/`, het chatverloop naar `db/agent.sqlite`, en elke webbeurt naar `traces/chat_*.json`. Ontwerpkeuzes staan in `ARCHITECTURE.md`.
