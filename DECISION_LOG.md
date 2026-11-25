@@ -46,6 +46,7 @@ Wat doen voordat je in productie zou gaan:
 - Pipelines voor linters en andere checks.
 - API-contracten duidelijk maken.
 - Unit tests, integration tests, end-to-end tests, evaluation tests / benchmarks, een cost test, een latency test en een stress test.
+- logging
 
 ## Niet af
 
