@@ -20,23 +20,13 @@ RESULTS_DIR.mkdir(exist_ok=True)
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    adapter_cm = MCPAdapter(build_mcp_client())
-    adapter = await adapter_cm.__aenter__()
-    tools = await adapter.list_tools()
-
-    DB_DIR.mkdir(exist_ok=True)
-    checkpointer_cm = AsyncSqliteSaver.from_conn_string(str(AGENT_DB))
-    checkpointer = await checkpointer_cm.__aenter__()
-
-    app.state.graph = build_graph(tools, checkpointer)
-    app.state._adapter_cm = adapter_cm
-    app.state._checkpointer_cm = checkpointer_cm
-    print(f"Loaded {len(tools)} tools: {[t.name for t in tools]}")
-    try:
-        yield
-    finally:
-        await checkpointer_cm.__aexit__(None, None, None)
-        await adapter_cm.__aexit__(None, None, None)
+    async with MCPAdapter(build_mcp_client()) as adapter:
+        tools = await adapter.list_tools()
+        DB_DIR.mkdir(exist_ok=True)
+        async with AsyncSqliteSaver.from_conn_string(str(AGENT_DB)) as checkpointer:
+            app.state.graph = build_graph(tools, checkpointer)
+            print(f"Loaded {len(tools)} tools: {[t.name for t in tools]}")
+            yield
 
 
 app = FastAPI(lifespan=lifespan)
