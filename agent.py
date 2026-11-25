@@ -13,7 +13,7 @@ from langgraph.graph import START, MessagesState, StateGraph
 from langgraph.prebuilt import ToolNode, tools_condition
 
 from configuration import AGENT_DB, DB_DIR, PROJECT_DIR, get_llm
-from tools import describe_sources
+from tools import describe_sources, load_data
 
 SYSTEM = """## Scope
 Answer from the supplied music catalog and rights files (tables + PDFs). Out-of-scope asks: briefly say so and point back to what these files can answer.
@@ -81,6 +81,7 @@ def build_assistant(llm, llm_with_tools):
 
 def initial_messages(question):
     """System prompt, folder overview, and the user question."""
+    load_data()  # agent process; MCP child loads separately for the tools
     return [
         SystemMessage(content=SYSTEM),
         HumanMessage(
