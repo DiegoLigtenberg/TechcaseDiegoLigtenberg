@@ -11,29 +11,30 @@ Dat zorgt voor een gesprek dat mensen al kennen van ChatGPT of Claude, maar dan 
 Model: `gpt-6.2-sol`, reasoning effort `low`. `gpt-4.1-mini` gaf slechtere antwoorden op dezelfde vragen.<br>
 Effort `medium` en `high` werden daarna geprobeerd: geen duidelijk beter antwoord, wel langer wachten op eind-antwoord.
 
-Tools: `find_tracks`, `find_licenses`, `read_document`.
+Tools: `find_tracks`, `find_licenses`, `read_document`. Read-only — bronbestanden worden niet herschreven.
 
-- De tools voorzien de agent van brondata uit de muziekcatalogus.
-- De tools zijn read-only: de bronbestanden worden niet herschreven/a.
-- Wel is er data preprocessing / dataverrijking vanwege de matige datakwaliteit.
-  - Accenten worden genegeerd bij het zoeken, zodat `Bjork` ook `Björk` vindt.
-  - De opmerking noemt soms een ander jaar dan de einddatum.
+| Tool | Wat de agent ermee doet |
+| --- | --- |
+| `find_tracks` | Zoekt tracks in de catalogus (artiest / titel / ISRC) en plakt de bijbehorende rechtenregels erbij. |
+| `find_licenses` | Filtert rechtenregels op eindjaar en/of ISRC. Lange resultaten gaan naar `results/licenses.csv`. |
+| `read_document` | Leest één PDF: elke pagina wordt een genummerde afbeelding; het model krijgt die plaatjes plus een korte zoekvraag en levert een bewijsnotitie met paginanummers terug (geen OCR-pipeline). |
 
-    | isrc | territorium | licentie_start | licentie_eind | royalty_pct | exclusief | sync_toegestaan | opmerking |
-    | --- | --- | --- | --- | --- | --- | --- | --- |
-    | NLZ032411588 | EU | 28-04-2021 | 31-12-2028 | 18.0 | N | alleen NL | loopt af in 2025 |
+Data-kwaliteit (preprocessing / verrijking):
 
-    Opmerking: De tool `find_licenses` filtert op de einddatum in de gestructureerde data<br> 
-    maar neemt de opmerking (met mogelijk mismatchende data), wel mee in het resultaat.<br>
+- Accenten worden genegeerd bij het zoeken, zodat `Bjork` ook `Björk` vindt.
+- De opmerking noemt soms een ander jaar dan de einddatum.
 
-<br>
-Bronnen waar de agent toegang toe heeft. 
+  | isrc | territorium | licentie_start | licentie_eind | royalty_pct | exclusief | sync_toegestaan | opmerking |
+  | --- | --- | --- | --- | --- | --- | --- | --- |
+  | NLZ032411588 | EU | 28-04-2021 | 31-12-2028 | 18.0 | N | alleen NL | loopt af in 2025 |
+
+  `find_licenses` filtert op einddatum, maar toont de (mogelijk conflicterende) opmerking wel in het resultaat.
+
+Bronnen (alleen als de agent ze nodig denkt te hebben):
 
 - `data/CATALOG_DUMP_2025-01-14_partial.dat`
 - `data/tracks_rechten_export.csv`
-- alle PDF's in `data/documents/`. Een PDF wordt per pagina een genummerde afbeelding die de agent leest.
-
-Bronnen worden alleen gebruikt als de agent ze nodig denkt te hebben voor het beantwoorden van de vraag.
+- PDF’s in `data/documents/`
 
 ## Productie
 
