@@ -1,5 +1,6 @@
 """FastAPI chat UI over the catalog agent."""
 
+import os
 from contextlib import asynccontextmanager
 from pathlib import Path
 
@@ -40,6 +41,12 @@ def root():
     return RedirectResponse(url="/static/chat.html")
 
 
+@app.get("/health")
+def health():
+    """Railway / uptime probe."""
+    return JSONResponse({"ok": True})
+
+
 @app.post("/chat")
 async def chat(
     request: Request,
@@ -57,4 +64,7 @@ async def new_chat():
 
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host="127.0.0.1", port=8000, reload=False)
+    # Local default 127.0.0.1:8000; Railway sets PORT (and typically HOST=0.0.0.0 via Procfile).
+    host = os.getenv("HOST", "127.0.0.1")
+    port = int(os.getenv("PORT", "8000"))
+    uvicorn.run("app:app", host=host, port=port, reload=False)

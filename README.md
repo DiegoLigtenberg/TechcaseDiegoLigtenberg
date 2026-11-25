@@ -78,4 +78,17 @@ OPENAI_REASONING_EFFORT=low
 | Web | `.venv\Scripts\python.exe app.py` → http://127.0.0.1:8000 |
 | Tests | `.venv\Scripts\python.exe -m pytest test_tools.py -v` |
 
+### Railway
+
+Branch `railway-deploy`. Deploy from GitHub; set variables:
+
+```text
+OPENAI_API_KEY=
+OPENAI_MODEL=
+OPENAI_REASONING_EFFORT=low
+```
+
+Start command (also in `Procfile` / `railway.toml`): `uvicorn app:app --host 0.0.0.0 --port $PORT`.  
+Health: `GET /health`. Chat turns can take ~30–60s (PDF vision); raise the service HTTP timeout if streams cut off. `db/` and `results/` are ephemeral on Railway unless you attach a volume.
+
 De agent zoekt in de catalogus en de rechten-CSV (`find_tracks`, `find_licenses`) en leest een PDF in één keer (`read_document`). Per chatbeurt is er 30 seconden zoektijd; daarna antwoordt hij met wat hij heeft. Lange lijsten gaan naar `results/`, het chatverloop naar `db/agent.sqlite`, en elke webbeurt naar `traces/chat_*.json`. Ontwerpkeuzes staan in `DECISION_LOG.md`.
