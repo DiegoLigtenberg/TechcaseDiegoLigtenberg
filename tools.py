@@ -72,8 +72,10 @@ def find_tracks(artist: str = "", title: str = "", isrc: str = "") -> str:
             chunks.append("  rights: (none)")
 
     if len(rows) > preview_limit:
-        path = save_tracks_csv(rows)
-        chunks.append(f"... {len(rows) - preview_limit} more catalog rows in {path}")
+        save_tracks_csv(rows)
+        chunks.append(
+            f"... {len(rows) - preview_limit} more catalog rows in /results/tracks.csv"
+        )
     return "\n".join(chunks)
 
 
@@ -87,7 +89,9 @@ def find_licenses(end_year: int = 0, isrc: str = "") -> str:
     lines = data["rights_lines"]
     if isrc:
         key = fold(isrc)
-        lines = [line for line in lines if key in fold(line)]
+        lines = [
+            line for line in lines if fold(line.split(";", 1)[0]) == key
+        ]
     if end_year:
         year = str(end_year)
         lines = [line for line in lines if rights_meta(line)["eind_year"] == year]
@@ -100,12 +104,13 @@ def find_licenses(end_year: int = 0, isrc: str = "") -> str:
     text = f"{len(lines)} rights rows\n{header}\n{body}"
 
     if len(lines) > preview_limit:
-        path = RESULTS_DIR / "licenses.csv"
         RESULTS_DIR.mkdir(exist_ok=True)
-        path.write_text(header + "\n" + "\n".join(lines), encoding="utf-8")
+        (RESULTS_DIR / "licenses.csv").write_text(
+            header + "\n" + "\n".join(lines), encoding="utf-8"
+        )
         text = (
-            f"{len(lines)} rights rows (first {preview_limit} below; full file: {path})\n"
-            f"{header}\n{body}"
+            f"{len(lines)} rights rows (first {preview_limit} below; "
+            f"full file: /results/licenses.csv)\n{header}\n{body}"
         )
     return text
 
@@ -245,6 +250,8 @@ def load_data():
 
 def describe_sources() -> str:
     """Short folder + table overview for the first agent message."""
+    if data["catalog"].empty and not data["rights_lines"]:
+        load_data()
     files = "\n".join(
         p.relative_to(DATA_DIR).as_posix()
         for p in sorted(DATA_DIR.rglob("*"))

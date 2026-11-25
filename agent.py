@@ -81,7 +81,8 @@ def build_assistant(llm, llm_with_tools):
 
 def initial_messages(question):
     """System prompt, folder overview, and the user question."""
-    load_data()  # agent process; MCP child loads separately for the tools
+    # Needed for describe_sources() row counts (MCP tools load in a separate process).
+    load_data()
     return [
         SystemMessage(content=SYSTEM),
         HumanMessage(

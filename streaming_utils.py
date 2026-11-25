@@ -60,9 +60,12 @@ async def stream_turn(graph, question: str, thread_id: str):
             seen_results.add(run_id)
             name = event["name"]
             output = event["data"]["output"]
-            text = output.content if isinstance(output, ToolMessage) else output
+            if isinstance(output, ToolMessage):
+                text = output.text
+            else:
+                text = str(output)
             previous = _note(
-                steps, "tools_result", name, previous, text=str(text)[:TRACE_LIMIT]
+                steps, "tools_result", name, previous, text=text[:TRACE_LIMIT]
             )
             yield f"\n__TOOL_CALL_RESULT__:Tool '{name}' returned: {text}\n"
 
