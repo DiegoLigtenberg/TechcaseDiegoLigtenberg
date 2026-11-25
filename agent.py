@@ -108,8 +108,9 @@ def build_graph(tools, checkpointer):
 
 def build_mcp_client() -> Client:
     """Stdio MCP client that starts tools.py as a child process."""
-    # StdioTransport sanitizes the child env unless we pass one explicitly —
-    # without this, read_document cannot see OPENAI_API_KEY (Railway/local).
+    # StdioTransport starts tools.py with a sanitized env. Locally the child can
+    # still load .env; on Railway there is no .env file, so pass the parent env
+    # or read_document has no OPENAI_API_KEY.
     return Client(
         StdioTransport(
             command=sys.executable,
