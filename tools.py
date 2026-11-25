@@ -89,9 +89,7 @@ def find_licenses(end_year: int = 0, isrc: str = "") -> str:
     lines = data["rights_lines"]
     if isrc:
         key = fold(isrc)
-        lines = [
-            line for line in lines if fold(line.split(";", 1)[0]) == key
-        ]
+        lines = [line for line in lines if fold(line.split(";", 1)[0]) == key]
     if end_year:
         year = str(end_year)
         lines = [line for line in lines if rights_meta(line)["eind_year"] == year]
