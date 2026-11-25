@@ -1,4 +1,5 @@
 let thread_id = crypto.randomUUID();
+let chatAbort = null; // cancel in-flight /chat when New chat or a new send starts
 
 const chatWindow = document.getElementById('chat-window');
 const mainContainer = document.getElementById('main');
@@ -8,6 +9,13 @@ const newChatBtn = document.getElementById('new-chat-btn');
 const suggestionList = document.getElementById('suggestion-list');
 const suggestionsPanel = document.getElementById('suggestions');
 const suggestionsToggle = document.getElementById('suggestions-toggle');
+
+function abortActiveChat() {
+    if (chatAbort) {
+        chatAbort.abort();
+        chatAbort = null;
+    }
+}
 
 const CASE_QUESTIONS = [
     "Welk royaltypercentage geldt er nu voor Björk-tracks in de Benelux? En zeggen alle bronnen daar hetzelfde over?",
@@ -287,6 +295,10 @@ function showWelcome() {
 
 function sendMessage(text) {
     if (!text) return;
+    abortActiveChat();
+    chatAbort = new AbortController();
+    const signal = chatAbort.signal;
+
     appendMessage(text, 'user');
     userInput.value = '';
     userInput.style.height = 'auto';
@@ -307,7 +319,8 @@ function sendMessage(text) {
             const response = await fetch('/chat', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                body: formData.toString()
+                body: formData.toString(),
+                signal: signal,
             });
             if (!response.ok) {
                 aiMsgDiv.innerHTML = renderMarkdown('[Error: ' + response.status + ']');
@@ -535,6 +548,9 @@ function sendMessage(text) {
                 }
             }
         } catch (err) {
+            if (err && err.name === 'AbortError') {
+                return;
+            }
             if (aiMsgDiv) {
                 aiMsgDiv.innerHTML = renderMarkdown('[Network error]');
             }
@@ -562,8 +578,11 @@ userInput.addEventListener('keydown', function (e) {
 });
 
 newChatBtn.onclick = function () {
+    abortActiveChat();
     thread_id = crypto.randomUUID();
     chatWindow.innerHTML = '';
+    userInput.disabled = false;
+    sendBtn.disabled = false;
     setSuggestionsOpen(true);
     showWelcome();
     userInput.focus();
