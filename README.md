@@ -78,4 +78,4 @@ OPENAI_REASONING_EFFORT=low
 | Web | `.venv\Scripts\python.exe app.py` → http://127.0.0.1:8000 |
 | Tests | `.venv\Scripts\python.exe -m pytest test_tools.py -v` |
 
-De agent zoekt in de catalogus en de rechten-CSV (`find_tracks`, `find_licenses`) en leest een PDF in één keer (`read_document`). Per chatbeurt is er 30 seconden zoektijd; daarna antwoordt hij met wat hij heeft. Lange lijsten gaan naar `results/`, het chatverloop naar `db/agent.sqlite`, en elke webbeurt naar `traces/chat_*.json`. Ontwerpkeuzes staan in `ARCHITECTURE.md`.
+De agent zoekt in de catalogus en de rechten-CSV (`find_tracks`, `find_licenses`) en leest een PDF in één keer (`read_document`). Per chatbeurt is er 30 seconden zoektijd; daarna antwoordt hij met wat hij heeft. Lange lijsten gaan naar `results/`, het chatverloop naar `db/agent.sqlite`, en elke webbeurt naar `traces/chat_*.json`. Ontwerpkeuzes staan in `DECISION_LOG.md`.
